@@ -1,0 +1,100 @@
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient( rgb(11, 74, 75), rgb(3, 44, 54));
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: "Times New Roman", sans-serif;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight:bold;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+} 
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.hero-image{
+  background-image:url(https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg);
+  height:352px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text{
+color:rgb(0, 0, 0);
+position: absolute;
+padding-left: 20px;
+top:270px;
+width:100%;
+font-size: 3rem;
+}
+
+.two-column{
+  display:grid;
+  grid-template-columns: 1fr 3fr;
+  gap:50px;
+  width:80%;
+  margin:auto;
+  margin-top:40px;
+}
+
+.two-column-right {
+  display:grid;
+  grid-template-columns: 10fr 10fr 2fr;
+  gap:50px;
+  width:100%;
+  margin:auto;
+  margin-top:40px;
+}
+
+img{
+  width:100%;
+}
+
+iframe {
+  width:60%;
+}
+
+footer {
+  background-color:black;
+  color:white;
+  padding:60px;
+  font-weight:bold;
+
+}
+
