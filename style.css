@@ -1,4 +1,8 @@
 
+body {
+  overflow-x:hidden;
+  background-color:#f9ffef;
+}
 
 .sidenav {
   height: 100%;
@@ -7,17 +11,17 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-image: linear-gradient( rgb(11, 74, 75), rgb(3, 44, 54));
+  background-image: linear-gradient( rgb(11, 74, 75), rgb(3, 35, 43));
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  font-family: "Times New Roman", sans-serif;
+  font-family: "Verdana", sans-serif;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 10px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1rem;
   color: #ffffff;
   display: block;
   transition: 0.3s;
@@ -26,7 +30,6 @@
 .sidenav a:hover {
   color: #ffffff;
   text-decoration: underline;
-  font-weight:bold;
 }
 
 .sidenav .closebtn {
@@ -39,7 +42,7 @@
 
 #main {
   transition: margin-left .5s;
-  padding: 16px;
+  overflow-x:hidden
 } 
 
 @media screen and (max-height: 450px) {
@@ -47,8 +50,16 @@
   .sidenav a {font-size: 18px;}
 }
 
+span {
+  color:white;
+  display:inline-block;
+  padding-left: 20px;
+  padding-top:10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .hero-image{
-  background-image:url(https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg);
+  background-image:url(https://shotkit.com/wp-content/uploads/bb-plugin/cache/merlin_212276709_3104aef5-3dc4-4288-bb44-9e5624db0b37-superJumbo-landscape-c8d20c0be24b743f457260a1346eb652-uz4ikceatsy9.jpg);
   height:352px;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,12 +67,13 @@
 }
 
 .hero-text{
-color:rgb(0, 0, 0);
+color:rgb(255, 255, 255);
 position: absolute;
-padding-left: 20px;
-top:270px;
+padding-left: 40px;
+top:230px;
 width:100%;
 font-size: 3rem;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .two-column{
@@ -80,6 +92,7 @@ font-size: 3rem;
   width:100%;
   margin:auto;
   margin-top:40px;
+  padding-left:50px;
 }
 
 img{
@@ -90,11 +103,38 @@ iframe {
   width:60%;
 }
 
-footer {
-  background-color:black;
-  color:white;
-  padding:60px;
-  font-weight:bold;
 
+footer {
+  background-image: linear-gradient( rgb(125, 40, 8), rgb(3, 35, 43));
+  color:white;
+  padding:2rem;
+  font-weight:bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.info {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.heading {
+padding:2rem;
+font-size:40px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.footerlinks {
+color:white;
+}
+
+.footerlinks a:hover {
+  font-style: underline;
+}
+
+.footerlinks a:visited {
+  color:#ffffff;
+}
