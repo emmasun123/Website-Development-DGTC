@@ -1,3 +1,8 @@
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
 
 body {
   overflow-x:hidden;
@@ -95,6 +100,13 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   padding-left:50px;
 }
 
+.one-column { gap:50px;
+width:90%;
+margin:auto;
+margin-top:40px;
+margin-bottom:40px;
+}
+
 img{
   width:100%;
 }
@@ -114,6 +126,7 @@ footer {
 
 .info {
   font-family: 'Trebuchet MS', sans-serif;
+  font:25px;
 }
 
 .heading {
@@ -122,19 +135,33 @@ font-size:40px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-.footerlinks {
-color:white;
-}
-
 .footerlinks a:hover {
-  font-style: underline;
+  text-decoration: underline;
 }
 
-.footerlinks a:visited {
-  color:#ffffff;
+a:visited, a {
+  color:white;
 }
+
+
+.two-column-vid{
+  display:grid;
+  grid-template-columns: 5fr 3fr;
+  width:80%;
+  margin:auto;
+  margin-top:40px;
+}
+
+p {
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, h2 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.srclinks, .srclinks:visited {
+  color:black;
+}
+
